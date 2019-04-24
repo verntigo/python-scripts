@@ -2,10 +2,6 @@
 #vcd-pwl maker
 #A tool for parsing vcd file and make pwl file.
 #By Steve M Song(stevemsong@yahoo.com)
-#
-# VCG
-# Generalized the regexes. Works with Icarus Verilog.
-# Vectored nets have not yet been tested.
 import re,sys,os
 from textwrap import wrap
 import getopt
